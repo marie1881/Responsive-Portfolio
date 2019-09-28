@@ -217,16 +217,81 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+/*  */
+/* /* @media screen and (max-width: 980px) { */
+
+  @media screen and (max-width:980px)  {
+
+
+.main-section {
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 30px;
+  width: 80%;
+  margin-bottom: 190px;
+  
+}
+
+p {
+  font-size: 16px;
+}
+.auth-image {
+  width: 300px;
+  height: 200px;
+  margin: 20px 10px 20px;
+  
+}
+
+.work {
+  width: 300px;
+  height: 250px;
+  border: 0 none;
+  
+}
+
+}
+/*  */
+@media screen and (max-width: 768px) {
+
+ .main-section {
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 30px;
+  width: 100%;
+  margin-bottom: 190px;
+}
+
+.auth-image {
+  width: 290px;
+  height: 220px;
+  margin: 20px 10px 20px;
+  
+}
+
+p {
+  margin: 35px;
+}
+
+.work {
+  width: 300px;
+  height: 250px;
+  border: 0 none;
+  
+}
+}
 
 
 
+/* @media screen and (max-width: 640px) { */
 
+  @media screen and (max-width:640px) {
 
-@media (max-width: 640px) {
+  
   #logo {
     position: static;
     width: 100%;
 }
+
 
 .nav {
   
@@ -242,6 +307,7 @@ input[type=submit] {
   margin-right: 20px;
   padding: 30px;
   width: 100%;
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -259,51 +325,24 @@ p {
   margin: 20px;
 }
 
-}
-
-
-/* // Small devices (landscape phones, less than 768px);
-
-@media screen and (max-width: 640px) {
-    #masthead {
-    position: static;
-    }
-    
-    .main-section {
-    background-color: #4aaaa5;
-  }
-  }
-  
-// Medium devices (tablets, less than 992px);
-
-
- @media screen and (max-width: 768px) {
-  #masthead {
-    display:
-  }
-
+.work {
+  width: 500px;
+  height: 350px;
+  border: 0 none;
   
 }
 
-// Large devices (desktops, less than 1200px);
 
-@media screen and (max-width: 980px) {
-  div.example {
-    display: none;
-  }
-}
+} 
 
-// Extra large devices (large desktops);
 
-@media screen and (max-width: 600px) {
-  div.example {
-    display: none;
-  }
-}
+  
 
 
 
-// No media query since the extra-large breakpoint has no upper bound on its width
+
+  
 
 
-980px, 768px and 640px. */
+
+
